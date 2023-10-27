@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const toCelsiusRadio = $("#to_celsius");
   const toFahrenheitRadio = $("#to_fahrenheit");
   const degreesEntered = $("#degrees_entered");
-  const resetButton = $("#reset"); // Add this line to select the Reset button
+  const resetButton = $("#reset"); // selects the Reset button
 
   convertButton.addEventListener("click", convertTemp);
   toCelsiusRadio.addEventListener("change", toCelsius);
